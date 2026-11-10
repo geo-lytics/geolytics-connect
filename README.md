@@ -3,7 +3,7 @@
 Connect Geolytics analysis and data to your own AI platform or internal systems in minutes.
 
 - **MCP Server**: plug Geolytics into any AI assistant or agent platform that supports the [Model Context Protocol](https://modelcontextprotocol.io). Users ask questions in natural language; the AI retrieves analyses, implications for your organization, the political calendar, economic dashboards and the policy database.
-- **REST API**: bulk export of analyses as JSON or Markdown for archives, intranets and data pipelines.
+- **REST API**: bulk export of analyses as JSON or Markdown for archives, intranets and data pipelines (analyses only).
 
 Both are read-only, encrypted (HTTPS) and limited to your organization's subscription.
 
@@ -143,4 +143,4 @@ x-api-key: <your API key>
 Each analysis includes title, authors, publisher, last edited date, channels, tags, countries, key takeaways and full content.
 
 - **Security**: HTTPS (TLS 1.2+), one API key per client, read-only. IP whitelisting available on request.
-- **Rate limit**: 1 request/second (burst 2). Quota: 5 requests/week (currently 20/day for testing). Requests over the limit return an error.
+- **Rate limit**: Requests are subject to rate limits and quotas. Requests over the limit return an error.
